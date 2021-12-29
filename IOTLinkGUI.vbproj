@@ -12,6 +12,12 @@
     <PackageProjectUrl>https://github.com/dublowduck/IOTLinkGUI</PackageProjectUrl>
     <RepositoryUrl>https://github.com/dublowduck/IOTLinkGUI</RepositoryUrl>
     <RepositoryType>Github</RepositoryType>
+    <Version>0.1.0</Version>
+    <Description>IOTLinkGUI is an unofficial Windows Forms GUI for controlling IOT Link</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>The first release of IOTLinkGUI, how fun. This little program will show you if you have IOT Link installed and in the future allow you to install and configure it.</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Copyright>2021 dublowduck</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
@@ -42,6 +48,10 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
 
