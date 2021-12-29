@@ -43,7 +43,7 @@ Partial Class Form1
         Me.labIotLinkInstalled.AutoSize = True
         Me.labIotLinkInstalled.BackColor = System.Drawing.SystemColors.Control
         Me.labIotLinkInstalled.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.labIotLinkInstalled.Location = New System.Drawing.Point(151, 40)
+        Me.labIotLinkInstalled.Location = New System.Drawing.Point(136, 40)
         Me.labIotLinkInstalled.Name = "labIotLinkInstalled"
         Me.labIotLinkInstalled.Size = New System.Drawing.Size(130, 37)
         Me.labIotLinkInstalled.TabIndex = 1
@@ -51,7 +51,7 @@ Partial Class Form1
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(25, 124)
+        Me.btnUpdate.Location = New System.Drawing.Point(25, 114)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
         Me.btnUpdate.TabIndex = 2
@@ -71,11 +71,12 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(623, 334)
+        Me.ClientSize = New System.Drawing.Size(313, 334)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.labIotLinkInstalled)
         Me.Controls.Add(Me.labIotLink)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Name = "Form1"
         Me.Text = "IOTLink GUI"
         Me.ResumeLayout(False)
