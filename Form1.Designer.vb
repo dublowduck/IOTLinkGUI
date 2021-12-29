@@ -26,6 +26,7 @@ Partial Class Form1
         Me.labIotLinkInstalled = New System.Windows.Forms.Label()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.labWarningMsg = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'labIotLink
@@ -67,11 +68,21 @@ Partial Class Form1
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'labWarningMsg
+        '
+        Me.labWarningMsg.AutoSize = True
+        Me.labWarningMsg.Location = New System.Drawing.Point(25, 86)
+        Me.labWarningMsg.Name = "labWarningMsg"
+        Me.labWarningMsg.Size = New System.Drawing.Size(219, 15)
+        Me.labWarningMsg.TabIndex = 5
+        Me.labWarningMsg.Text = "(Only checks the default install location)"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(313, 334)
+        Me.Controls.Add(Me.labWarningMsg)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.labIotLinkInstalled)
@@ -88,4 +99,5 @@ Partial Class Form1
     Friend WithEvents labIotLinkInstalled As Label
     Friend WithEvents btnUpdate As Button
     Friend WithEvents btnExit As Button
+    Friend WithEvents labWarningMsg As Label
 End Class
