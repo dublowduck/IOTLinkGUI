@@ -33,7 +33,7 @@ Partial Class Form1
         '
         Me.labIotLink.AutoSize = True
         Me.labIotLink.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.labIotLink.Location = New System.Drawing.Point(12, 40)
+        Me.labIotLink.Location = New System.Drawing.Point(12, 28)
         Me.labIotLink.Name = "labIotLink"
         Me.labIotLink.Size = New System.Drawing.Size(105, 37)
         Me.labIotLink.TabIndex = 0
@@ -44,7 +44,7 @@ Partial Class Form1
         Me.labIotLinkInstalled.AutoSize = True
         Me.labIotLinkInstalled.BackColor = System.Drawing.SystemColors.Control
         Me.labIotLinkInstalled.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.labIotLinkInstalled.Location = New System.Drawing.Point(136, 40)
+        Me.labIotLinkInstalled.Location = New System.Drawing.Point(136, 28)
         Me.labIotLinkInstalled.Name = "labIotLinkInstalled"
         Me.labIotLinkInstalled.Size = New System.Drawing.Size(130, 37)
         Me.labIotLinkInstalled.TabIndex = 1
@@ -71,7 +71,7 @@ Partial Class Form1
         'labWarningMsg
         '
         Me.labWarningMsg.AutoSize = True
-        Me.labWarningMsg.Location = New System.Drawing.Point(25, 86)
+        Me.labWarningMsg.Location = New System.Drawing.Point(25, 65)
         Me.labWarningMsg.Name = "labWarningMsg"
         Me.labWarningMsg.Size = New System.Drawing.Size(219, 15)
         Me.labWarningMsg.TabIndex = 5
