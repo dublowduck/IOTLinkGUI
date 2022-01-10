@@ -1,4 +1,4 @@
-﻿Public Class formMain
+﻿Public Class Form1
     'delcare variables
     Dim blnIotLinkIsInstalled As Boolean = False
 
