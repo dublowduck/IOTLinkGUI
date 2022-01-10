@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class formMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -88,7 +88,7 @@ Partial Class Form1
         Me.Controls.Add(Me.labIotLinkInstalled)
         Me.Controls.Add(Me.labIotLink)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Name = "Form1"
+        Me.Name = "formMain"
         Me.Text = "IOTLink GUI"
         Me.ResumeLayout(False)
         Me.PerformLayout()
