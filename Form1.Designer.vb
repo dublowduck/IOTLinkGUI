@@ -22,11 +22,11 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.labIotLink = New System.Windows.Forms.Label()
-        Me.labIotLinkInstalled = New System.Windows.Forms.Label()
+        Me.lblIotLink = New System.Windows.Forms.Label()
+        Me.lblIotLinkInstalled = New System.Windows.Forms.Label()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.labWarningMsg = New System.Windows.Forms.Label()
+        Me.lblWarningMsg = New System.Windows.Forms.Label()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.tabDashboard = New System.Windows.Forms.TabPage()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
@@ -34,26 +34,26 @@ Partial Class Form1
         Me.tabDashboard.SuspendLayout()
         Me.SuspendLayout()
         '
-        'labIotLink
+        'lblIotLink
         '
-        Me.labIotLink.AutoSize = True
-        Me.labIotLink.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.labIotLink.Location = New System.Drawing.Point(6, 22)
-        Me.labIotLink.Name = "labIotLink"
-        Me.labIotLink.Size = New System.Drawing.Size(105, 37)
-        Me.labIotLink.TabIndex = 0
-        Me.labIotLink.Text = "IOTLink"
+        Me.lblIotLink.AutoSize = True
+        Me.lblIotLink.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblIotLink.Location = New System.Drawing.Point(6, 22)
+        Me.lblIotLink.Name = "lblIotLink"
+        Me.lblIotLink.Size = New System.Drawing.Size(105, 37)
+        Me.lblIotLink.TabIndex = 0
+        Me.lblIotLink.Text = "IOTLink"
         '
-        'labIotLinkInstalled
+        'lblIotLinkInstalled
         '
-        Me.labIotLinkInstalled.AutoSize = True
-        Me.labIotLinkInstalled.BackColor = System.Drawing.SystemColors.Control
-        Me.labIotLinkInstalled.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.labIotLinkInstalled.Location = New System.Drawing.Point(130, 22)
-        Me.labIotLinkInstalled.Name = "labIotLinkInstalled"
-        Me.labIotLinkInstalled.Size = New System.Drawing.Size(130, 37)
-        Me.labIotLinkInstalled.TabIndex = 1
-        Me.labIotLinkInstalled.Text = "Unknown"
+        Me.lblIotLinkInstalled.AutoSize = True
+        Me.lblIotLinkInstalled.BackColor = System.Drawing.SystemColors.Control
+        Me.lblIotLinkInstalled.Font = New System.Drawing.Font("Segoe UI", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblIotLinkInstalled.Location = New System.Drawing.Point(130, 22)
+        Me.lblIotLinkInstalled.Name = "lblIotLinkInstalled"
+        Me.lblIotLinkInstalled.Size = New System.Drawing.Size(130, 37)
+        Me.lblIotLinkInstalled.TabIndex = 1
+        Me.lblIotLinkInstalled.Text = "Unknown"
         '
         'btnUpdate
         '
@@ -73,14 +73,14 @@ Partial Class Form1
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
-        'labWarningMsg
+        'lblWarningMsg
         '
-        Me.labWarningMsg.AutoSize = True
-        Me.labWarningMsg.Location = New System.Drawing.Point(19, 59)
-        Me.labWarningMsg.Name = "labWarningMsg"
-        Me.labWarningMsg.Size = New System.Drawing.Size(219, 15)
-        Me.labWarningMsg.TabIndex = 5
-        Me.labWarningMsg.Text = "(Only checks the default install location)"
+        Me.lblWarningMsg.AutoSize = True
+        Me.lblWarningMsg.Location = New System.Drawing.Point(19, 59)
+        Me.lblWarningMsg.Name = "lblWarningMsg"
+        Me.lblWarningMsg.Size = New System.Drawing.Size(219, 15)
+        Me.lblWarningMsg.TabIndex = 5
+        Me.lblWarningMsg.Text = "(Only checks the default install location)"
         '
         'TabControl1
         '
@@ -94,9 +94,9 @@ Partial Class Form1
         '
         'tabDashboard
         '
-        Me.tabDashboard.Controls.Add(Me.labIotLink)
-        Me.tabDashboard.Controls.Add(Me.labWarningMsg)
-        Me.tabDashboard.Controls.Add(Me.labIotLinkInstalled)
+        Me.tabDashboard.Controls.Add(Me.lblIotLink)
+        Me.tabDashboard.Controls.Add(Me.lblWarningMsg)
+        Me.tabDashboard.Controls.Add(Me.lblIotLinkInstalled)
         Me.tabDashboard.Controls.Add(Me.btnUpdate)
         Me.tabDashboard.Location = New System.Drawing.Point(4, 24)
         Me.tabDashboard.Name = "tabDashboard"
@@ -116,7 +116,7 @@ Partial Class Form1
         Me.TabPage2.Text = "TabPage2"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'formMain
+        'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -133,11 +133,11 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents labIotLink As Label
-    Friend WithEvents labIotLinkInstalled As Label
+    Friend WithEvents lblIotLink As Label
+    Friend WithEvents lblIotLinkInstalled As Label
     Friend WithEvents btnUpdate As Button
     Friend WithEvents btnExit As Button
-    Friend WithEvents labWarningMsg As Label
+    Friend WithEvents lblWarningMsg As Label
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents tabDashboard As TabPage
     Friend WithEvents TabPage2 As TabPage

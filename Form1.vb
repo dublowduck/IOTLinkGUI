@@ -11,11 +11,11 @@
         End If
 
         If blnIotLinkIsInstalled = True Then
-            labIotLinkInstalled.Text = "Installed"
-            labIotLinkInstalled.BackColor = Color.Lime
+            lblIotLinkInstalled.Text = "Installed"
+            lblIotLinkInstalled.BackColor = Color.Lime
         ElseIf blnIotLinkIsInstalled = False Then
-            labIotLinkInstalled.Text = "Not Installed"
-            labIotLinkInstalled.BackColor = Color.Red
+            lblIotLinkInstalled.Text = "Not Installed"
+            lblIotLinkInstalled.BackColor = Color.Red
         End If
     End Sub
 
@@ -29,11 +29,11 @@
         End If
 
         If blnIotLinkIsInstalled = True Then
-            labIotLinkInstalled.Text = "Installed"
-            labIotLinkInstalled.BackColor = Color.Lime
+            lblIotLinkInstalled.Text = "Installed"
+            lblIotLinkInstalled.BackColor = Color.Lime
         ElseIf blnIotLinkIsInstalled = False Then
-            labIotLinkInstalled.Text = "Not Installed"
-            labIotLinkInstalled.BackColor = Color.Red
+            lblIotLinkInstalled.Text = "Not Installed"
+            lblIotLinkInstalled.BackColor = Color.Red
         End If
     End Sub
 
